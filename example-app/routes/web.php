@@ -20,9 +20,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-/*Route::get('/homepage', function () {
+Route::get('/homepage', function () {
     return view('homepage');
-});*/
+});
 
 Route::get('/terms', function () {
     return view('terms');
